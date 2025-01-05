@@ -1,7 +1,6 @@
 import os
 import pyaes
 
-## abrir o arquivo criptografado
 file_name = "teste.txt.donttrust"
 file = open(file_name, "rb")
 file_data = file.read()
